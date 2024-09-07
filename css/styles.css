@@ -2,10 +2,20 @@ body {
     background-color: #D8A25E;
 }
 
+h1{
+    color:#1E201E;
+}
+h2{
+    color:#1E201E;;
+}
+h3{
+    color:#1E201E;
+}
+
 hr {
     background-color: none;
     border-style: dotted none none;
     border-width: 5px;
-    border-color: #343131;
+    border-color: #3C3D37;
     width: 33%;
 }
