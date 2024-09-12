@@ -1,29 +1,52 @@
 body {
     background-color: #697565;
     margin: 0;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .top-container{
-    background-color: #3C3D37;
+    position: relative;
     margin: 0;
+    padding: 0;
 }
 
 .middel-container{
-    background-color: #3C3D37;
+    background-color: #181C14;
     margin: 0;
+    width: 200px;
+    display: inline-block;
 }
 
+.bottom-container{
+    background-color: bisque;
+    margin: 0;
+    width: 200px;
+    display: inline-block;
+}
+
+.top-tittle{
+    background-color: #3C3D37;
+    position: absolute;
+    top: 5%;
+    right: 50%;
+    margin: 0 0 0 0;
+    padding: 0px;
+    
+}
 
 h1{
     color:#ECDFCC;
     margin-top: 0;
+    width: 10%;
+    
 }
 h2{
     color:#ECDFCC;
     margin-top: 0;
 }
 h3{
-    color:#1E201E;
+    color:#3C3D37;
 }
 
 hr {
