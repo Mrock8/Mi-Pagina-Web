@@ -1,12 +1,26 @@
 body {
-    background-color: #D8A25E;
+    background-color: #697565;
+    margin: 0;
 }
 
+.top-container{
+    background-color: #3C3D37;
+    margin: 0;
+}
+
+.middel-container{
+    background-color: #3C3D37;
+    margin: 0;
+}
+
+
 h1{
-    color:#1E201E;
+    color:#ECDFCC;
+    margin-top: 0;
 }
 h2{
-    color:#1E201E;;
+    color:#ECDFCC;
+    margin-top: 0;
 }
 h3{
     color:#1E201E;
