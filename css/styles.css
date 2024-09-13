@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 370px;
+    top: 80px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 370px;
+    top: 190px;
+}
+
+.top-container{
+    background-color: #96C9F4;
+    position: relative;
+    padding-top: 200px;
+}
+
+h1{
+    margin: auto;
+}
