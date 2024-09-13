@@ -1,21 +1,27 @@
-body {
-    background-color: #D8A25E;
+body{
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 370px;
+    top: 80px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 370px;
+    top: 190px;
+}
+
+.top-container{
+    background-color: #96C9F4;
+    position: relative;
+    padding-top: 200px;
 }
 
 h1{
-    color:#1E201E;
-}
-h2{
-    color:#1E201E;;
-}
-h3{
-    color:#1E201E;
-}
-
-hr {
-    background-color: none;
-    border-style: dotted none none;
-    border-width: 5px;
-    border-color: #3C3D37;
-    width: 33%;
+    margin: auto;
 }
