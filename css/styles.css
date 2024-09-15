@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0%;
     text-align: center;
+    font-family: "Space Grotesk", sans-serif;;
 }
 .top-container-fondo{
     height: 35vw;
@@ -13,6 +14,7 @@ body{
 
 
 .img-fondo{
+    display: flex;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -33,21 +35,16 @@ body{
 }
 
 .img-profile{
-    display: inline-block;
+    margin: 10px;
     margin-right: auto;
+    border-radius: 10px;
 }
-
-.text-profile{
-    display: inline-block;
-    position: relative;
-    top:auto;
-}
-
 
 
 h1{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 700;
+    font-size: 300%;
 }
 
 .normal-text{
