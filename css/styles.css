@@ -4,7 +4,6 @@ body{
     text-align: center;
 }
 .top-container-fondo{
-    background: linear-gradient(to to, rgb(0, 0, 0), rgba(255, 255, 255, 0.144));
     height: 35vw;
     width: auto;
     padding: 0%;
@@ -12,21 +11,39 @@ body{
     position: relative;
 }
 
+
 .img-fondo{
     position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
-    
 }
 
 .top-tittle{
     position: absolute;
     top:35%;
     left: 25%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -50%);
     text-align: justify;
 }
+
+.middle-container{
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.img-profile{
+    display: inline-block;
+    margin-right: auto;
+}
+
+.text-profile{
+    display: inline-block;
+    position: relative;
+    top:auto;
+}
+
+
 
 h1{
     font-family: "Space Grotesk", sans-serif;
