@@ -29,6 +29,7 @@ body{
 
 
 .middle-container{
+    margin: 0vw 5vw 0vw 5vw;
     position: relative;
     background-color: rgba(255, 255, 255, 0.89);
     border-radius: 10px;
