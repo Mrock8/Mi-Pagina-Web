@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.8vw;
+}
+
+.top-container{
+    position: relative;
+    height: 27vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.top-tittle{
+    position: relative;
+    grid-column: 2 / 4;
+    grid-row: 2;
+    
+}
+
+.img-fondo{
+    position: fixed;
+    height: 27vw;
+    width: 100%;
+    
+}
+
+.img-profile{
+    position: relative;
+    left: 50%;
+    height: 20vw;
+    transform: translate(-50%, -20%);
+}
+
+.middle-container{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+
+}
+
+.skills-container{
+    position: relative;
+    
+}
