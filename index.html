@@ -1,58 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Sobre Mi</title>
+    <title>Curriculum - Keiber Chacon</title>
+    <!-- 
+        Estilos CSS básicos y profesionales.
+        Se utilizan estilos embebidos para asegurar que el CV se vea bien
+        al ser publicado directamente en GitHub Pages sin archivos CSS externos.
+    -->
+    <style>
+        body {
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 0;
+            font-size: 2.2em;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .contact-info a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        .section-content {
+            padding-left: 15px;
+        }
+        .skill-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.95em;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .skill-table th, .skill-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        .skill-table th {
+            background-color: #f8f8f8;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        .project-item {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background-color: #ecf0f130;
+            border-radius: 4px;
+        }
+        .project-item strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+        .project-item ul {
+            list-style: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+        .academico {
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="top-container">
-        <img class="img-fondo" src="img/conifers.jpg" alt="">
-        <div class="linear-gradient"></div>
-        <div class="top-title">
-            <h1 class="title">Soy Keiber Chacon</h1>
+    <div class="container">
+        
+        <!-- 1. TÍTULO Y CONTACTO (RECUERDA LLENAR LOS PLACEHOLDERS) -->
+        <h1>Keiber David Chacon Davila</h1>
+        <p class="contact-info">
+            <a href="mailto:keiber1chacon@gmail.com">keiber1chacon@gmail.com</a> |
+            0414 538-5205 |
+            <a href="URL_GITHUB" target="_blank">**GitHub (Portafolio)**</a> 
+        </p>
+
+        <!-- 2. RESUMEN PROFESIONAL (PERFIL) -->
+        <h2>Resumen Profesional</h2>
+        <div class="section-content">
+            <p><strong>Estudiante de Ingeniería en Sistemas</strong> con un alto enfoque en el 
+            Desarrollo Web Full-Stack. Demuestro una excepcional capacidad de aprendizaje rápido y me oriento a la consecución eficiente de objetivos a través de la programación lógica. 
+            Especializado en el *Stack* de Python/Django, busco aplicar mis habilidades técnicas para contribuir 
+            al desarrollo de soluciones dinámicas, escalables y orientadas a la optimización de procesos.
+            </p>
         </div>
-    </div>
-    <div class="middle-container">
-        <div class="skills-container">
-            <img class="img-profile" src="img/boy.png" alt="">
-            <h2 class="my-skills">Mis Habilidades</h2>
-            <div class="skills-one">
-                <h3>Programador</h3>
-                <p>
-                    Soy un Estudiante de Ingenieria en sistema
-                    enfocado en Programacion y Desarrollo de Aplicaciones
-                    web y de escritorio
-                </p>
-                <div class="img-skills-container-one">
-                    <img class=" img-skills" src="img/python.png" alt="">
-                    <img class=" img-skills" src="img/html-5.png" alt="">
-                    <img class=" img-skills" src="img/css.png" alt="">
-                </div>
+
+        <!-- 3. HABILIDADES TÉCNICAS -->
+        <h2>Habilidades Técnicas</h2>
+        <div class="section-content">
+            <table class="skill-table">
+                <thead>
+                    <tr>
+                        <th>Área</th>
+                        <th>Habilidades Específicas</th>
+                        <th>Nivel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>**Back-End**</td>
+                        <td>Python, <strong>Django (Fuerte)</strong>, PostgreSQL, ORMs.</td>
+                        <td>Avanzado</td>
+                    </tr>
+                    <tr>
+                        <td>**Front-End**</td>
+                        <td><strong>HTML5 (Avanzado)</strong>, CSS3 (Intermedio), JavaScript (Intermedio), Bootstrap.</td>
+                        <td>Intermedio/Avanzado</td>
+                    </tr>
+                    <tr>
+                        <td>**Control Versiones**</td>
+                        <td>Git / GitHub (En aprendizaje activo).</td>
+                        <td>Básico/Intermedio</td>
+                    </tr>
+                    <tr>
+                        <td>**Otros**</td>
+                        <td>Metodologías Ágiles (Conocimiento), Diagnóstico y Reparación de *Hardware* (*Hobby*).</td>
+                        <td>Básico</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 4. EXPERIENCIA Y PROYECTOS RELEVANTES -->
+        <h2>Experiencia Académica y Proyectos Relevantes</h2>
+        <div class="section-content">
+            <div class="project-item">
+                <strong>Proyecto Principal: Modernización de Plataforma Educativa (Django)</strong>
+                <ul>
+                    <li>**Rol:** Desarrollador Full-Stack (Python/Django).</li>
+                    <li>**Logro Destacado:** Transición exitosa de un sitio web estático a una plataforma 
+                        **dinámica y autogestionable**, permitiendo a la institución (Centro Regional de Tecnología Educativa) 
+                        **administrar y publicar nuevos cursos de manera autónoma** e inmediata.</li>
+                    <li>**Funcionalidades Clave:** Diseño e implementación de módulos CRUD (Crear, Leer, Actualizar, Eliminar) para el Registro de Estudiantes y la Administración de Contenido.</li>
+                    <li>**Tecnologías:** Python, Django, PostgreSQL, HTML5, CSS (Bootstrap).</li>
+                    <li>**Link al Código:** <a href="" target="_blank">Ver Repositorio</a></li>
+                </ul>
             </div>
-            <div class="skills-two">
-                <h3>Musico</h3>
-                <p>
-                    Desempeño funciones como coordinador del Ministerio de Musica
-                    de la Parroquia Divino Niño Estado Barinas, como guitarrista
-                    principal
-                </p>
-                <div class="img-skills-container-two">
-                    <img class=" img-skills" src="img/guitar.png" alt="">
-                    <img class=" img-skills" src="img/grand-piano.png" alt="">
-                    <img class=" img-skills" src="img/drum-set.png" alt="">
-                </div>
-            </div>
+            <!-- Puedes añadir más proyectos aquí -->
+        </div>
+
+        <!-- 5. FORMACIÓN ACADÉMICA -->
+        <h2>Formación Académica</h2>
+        <div class="section-content academico">
+            <p><strong>Ingeniería en Sistemas</strong></p>
+            <p>Universidad Nacional Experimental de la Fuerza Armada (UNEFA)</p>
+            <p>2019 – Actualidad | **Alto Rendimiento Académico: Promedio 17.31/20.**</p>
+        </div>
+
+        <!-- 6. CURSOS Y CERTIFICACIONES -->
+        <h2>Cursos y Certificaciones</h2>
+        <div class="section-content academico">
+            <ul>
+                <li>Certificación en Fundamentos de Python.</li>
+                <li>Curso de Desarrollo Web con PHP.</li>
+                <li>Certificado de Conocimiento en Reparación y Mantenimiento de Hardware (Hobby).</li>
+            </ul>
         </div>
     </div>
-    <div class="bottom-container">
-        <div class="contact-container">
-            <h4>Contactame</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ipsam ratione iure quam commodi enim sed culpa corrupti molestiae voluptatem. Animi labore, quasi eaque magnam qui perspiciatis et accusantium ipsam?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium necessitatibus fugiat voluptatum, dolore corporis voluptatem odit numquam distinctio id esse facilis officia quod officiis perspiciatis earum iusto nemo temporibus?</p>
-        </div>
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque eos illum rem est nisi error natus, ab cupiditate dolore omnis nostrum asperiores placeat esse id cum tempora delectus magni eveniet.</p>
 </body>
 </html>
